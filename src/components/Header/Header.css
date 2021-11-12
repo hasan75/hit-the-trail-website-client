@@ -14,3 +14,8 @@
 .custom-link a {
   text-decoration: none;
 }
+.user-image {
+  height: 40%;
+  width: 10%;
+  border-radius: 50%;
+}

@@ -14,7 +14,7 @@ const Header = () => {
                         <Navbar bg="light" expand="lg" className="navbar-brand">
                             <Container fluid>
                                 <Navbar.Brand as={NavLink} to="/home">
-                                  <img width="70px" src={logo} alt="Logo" />{" "}
+                                  <img width="50px" height="50px" src={logo} alt="Logo" />{" "}
                                   <span className="title"> HTT</span>
                                 </Navbar.Brand>
                                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,9 +24,9 @@ const Header = () => {
                                         style={{ maxHeight: '100px' }}
                                         navbarScroll
                                     >
-                                        <Link to="/home"><Nav.Link href="home">Home</Nav.Link></Link>
-                                        <Link to="/events"><Nav.Link href="events">Events</Nav.Link></Link>
-                                        <Link to="/myschedule"><Nav.Link href="schedule">My Schedule</Nav.Link></Link>
+                                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                                        <Nav.Link as={Link} to="/event">Event</Nav.Link>
+                                        <Nav.Link as={Link} to="/myschedule">My Schedule</Nav.Link>
                                         <NavDropdown title="Admin" id="collasible-nav-dropdown">
                                             <Link to="/createevent"><NavDropdown.Item href="createevent">Create Event</NavDropdown.Item></Link>
                                             <Link to="/eventlist"><NavDropdown.Item href="eventlist">All Event</NavDropdown.Item></Link>

@@ -27,7 +27,8 @@
 
 ---
 
-##There are several Pages like:
+## There are several Pages like:
+
 -Home
 -Events
 -Admin Panel

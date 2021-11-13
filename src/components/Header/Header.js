@@ -28,7 +28,7 @@ const Header = () => {
                                         navbarScroll
                                     >
                                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                                        <Nav.Link as={Link} to="/event">Event</Nav.Link>
+                                        <Nav.Link as={Link} to="/events">Event</Nav.Link>
                                         <Nav.Link as={Link} to="/myschedule">My Schedule</Nav.Link>
                                         <NavDropdown title="Admin" id="collasible-nav-dropdown">
                                             <Link to="/createevent"><NavDropdown.Item href="createevent">Create Event</NavDropdown.Item></Link>

@@ -10,9 +10,9 @@
 
 - https://hit-the-trail-react.web.app/
 
-# [Client Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-hasan75)
+# [Server Site of HTT -Live Link](https://mighty-sands-29370.herokuapp.com/)
 
-- https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-hasan75
+- https://mighty-sands-29370.herokuapp.com/
 
 # [Server Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75)
 

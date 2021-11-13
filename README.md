@@ -6,15 +6,15 @@
 
 ## Hit The Trail is a webApp project, which is given as an assignment project t0o fulfill the requirements of Programming Hero Assignment 10.
 
-#[Deploy or Live Link of the Website](https://hit-the-trail-react.web.app/)
+# [Deploy or Live Link of the Website](https://hit-the-trail-react.web.app/)
 
 - https://hit-the-trail-react.web.app/
 
-#[Client Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-hasan75)
+# [Client Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-hasan75)
 
 - https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-hasan75
 
-#[Server Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75)
+# [Server Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75)
 
 - https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75
 

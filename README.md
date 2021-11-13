@@ -4,7 +4,7 @@
 
 ---
 
-## Hit The Trail is a webApp project, which is given as an assignment project to fulfill the requirements of Programming Hero Assignment 10.
+## Hit The Trail is a webApp project, which is given as an assignment project to fulfill the requirements of Programming Hero Assignment 11.
 
 # [Deploy or Live Link of the Website](https://hit-the-trail-react.web.app/)
 

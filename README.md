@@ -4,7 +4,7 @@
 
 ---
 
-## Hit The Trail is a webApp project, which is given as an assignment project t0o fulfill the requirements of Programming Hero Assignment 10.
+## Hit The Trail is a webApp project, which is given as an assignment project to fulfill the requirements of Programming Hero Assignment 10.
 
 # [Deploy or Live Link of the Website](https://hit-the-trail-react.web.app/)
 
@@ -22,7 +22,7 @@
 
 # Hit The Trail Travel Agency Webapp Description:
 
-- Full Website is a single paged webapp built by react.
+- Full Website is a Full Stack webapp built by react.
 - Several components are added and differentiated for React Component Practice Purpose
 
 ---

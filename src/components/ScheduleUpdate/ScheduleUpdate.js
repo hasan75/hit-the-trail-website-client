@@ -8,7 +8,7 @@ const ScheduleUpdate = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/schedules/${id}`)
+        axios.get(`https://mighty-sands-29370.herokuapp.com/schedules/${id}`)
             .then(function (response) {
                 setSchedule(response.data);
 
@@ -47,7 +47,7 @@ const ScheduleUpdate = () => {
 
 
     const handleUpdate = (data) => {
-        axios.put(`http://localhost:5000/schedules/${id}`, schedule)
+        axios.put(`https://mighty-sands-29370.herokuapp.com/schedules/${id}`, schedule)
             .then(res => alert("Update Successfully"))
             .then(setSchedule({}))
             .then(() => history.push('/myschedule'))

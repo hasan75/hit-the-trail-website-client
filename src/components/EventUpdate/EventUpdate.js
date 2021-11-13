@@ -10,7 +10,7 @@ const EventUpdate = () => {
     const history = useHistory();
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/events/${id}`)
+        axios.get(`https://mighty-sands-29370.herokuapp.com/events/${id}`)
             .then(function (response) {
                 setEvent(response.data);
             })
@@ -79,7 +79,7 @@ const EventUpdate = () => {
 
 
     const handleUpdate = (data) => {
-        axios.put(`http://localhost:5000/events/${id}`, event)
+        axios.put(`https://mighty-sands-29370.herokuapp.com/events/${id}`, event)
             .then(res => alert("Update Successfully"))
             .then(setEvent({}))
             .then(() => history.push('/eventlist'))

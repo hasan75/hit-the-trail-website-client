@@ -12,7 +12,7 @@ const EventList = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure to delete?")
         if (proceed) {
-            axios.delete(`http://localhost:5000/events/${id}`)
+            axios.delete(`https://mighty-sands-29370.herokuapp.com/events/${id}`)
                 .then(res => {
                     if (res.data.deletedCount > 0) {
                         const remainingEvent = data.filter(m => m._id !== id)

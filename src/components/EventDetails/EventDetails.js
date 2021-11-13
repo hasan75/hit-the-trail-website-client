@@ -17,13 +17,13 @@ const EventDetails = () => {
     const userStatus = "pending";
     const onSubmit = (data) => {
         const bookingData = { ...data, userStatus, cost, description, destination, end_date, eventName, extra, from, image, start_date, start_time }
-        axios.post('http://localhost:5000/schedules/create', bookingData)
+        axios.post('https://mighty-sands-29370.herokuapp.com/schedules/create', bookingData)
             .then(alert("Inserted successfully"))
             .then(history.push('/myschedule'))
     }
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/events/${id}`)
+        axios.get(`https://mighty-sands-29370.herokuapp.com/events/${id}`)
             .then(function (response) {
                 setEvent(response.data);
             })

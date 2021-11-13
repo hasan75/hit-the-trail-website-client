@@ -11,11 +11,11 @@ const CreateEvent = () => {
 
 
     useEffect(() => {
-        axios.get('http://localhost:5000/events')
+        axios.get('https://mighty-sands-29370.herokuapp.com/events')
     }, [])
 
     const onSubmit = data => {
-        axios.post('http://localhost:5000/events/create', data)
+        axios.post('https://mighty-sands-29370.herokuapp.com/events/create', data)
             .then(alert("Inserted successfully"))
             .then(() => {
                 reset();

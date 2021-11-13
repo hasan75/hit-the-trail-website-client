@@ -11,7 +11,7 @@ const ScheduleList = () => {
     const handleStatus = (id) => {
         const remainData = data.find(d => d._id === id)
         const { _id, ...newData } = remainData;
-        axios.put(`http://localhost:5000/schedules/status/${id}`, newData)
+        axios.put(`https://mighty-sands-29370.herokuapp.com/schedules/status/${id}`, newData)
             .then(res => alert("Schedule Status Updated Successfully"))
             .then(() => window.location.reload())
     }
@@ -19,7 +19,7 @@ const ScheduleList = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure to delete?")
         if (proceed) {
-            axios.delete(`http://localhost:5000/schedules/${id}`)
+            axios.delete(`https://mighty-sands-29370.herokuapp.com/schedules/${id}`)
                 .then(res => {
                     if (res.data.deletedCount > 0) {
                         const remainingSchedule = data.filter(d => d._id !== id)

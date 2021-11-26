@@ -14,9 +14,9 @@
 
 - https://mighty-sands-29370.herokuapp.com/
 
-# [Server Site of HTT -Github Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75)
+# [Server Site of HTT -Github Link](https://github.com/hasan75/hit-the-trail-server-site)
 
-- https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasan75
+- https://github.com/hasan75/hit-the-trail-server-site
 
 ---
 
@@ -24,6 +24,12 @@
 
 - Full Website is a Full Stack webapp built by react.
 - Several components are added and differentiated for React Component Practice Purpose
+- A travel web site where user can login, register.
+- User can explore the tour packages,
+  book packages, update booking information, see bookings lists.
+- Admin can add products, edit, and delete products.
+- Technologies : React, React-Bootstrap, Firebase Authentication,
+  MongoDB, Express JS, CSS
 
 ---
 
@@ -43,6 +49,12 @@
 
 - For the Designing, React Bootstrap is used in the webapp.
 - For font, FontAwesome is being used
+- This is a React App
+- React-Bootstrap
+- Firebase Authentication
+- MongoDB
+- Express JS
+- CSS
 - ## In the Web App React Router is used
 - Private Router is used
 - Dynamic Routing is being used in the project.
